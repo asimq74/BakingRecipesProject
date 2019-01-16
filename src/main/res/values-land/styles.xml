@@ -1,0 +1,9 @@
+<resources>
+
+
+    <style name="ShortDescriptionTheme" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textSize">@dimen/abc_text_size_medium_material</item>
+    </style>
+
+
+</resources>

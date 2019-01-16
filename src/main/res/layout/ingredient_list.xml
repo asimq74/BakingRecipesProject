@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+    <include layout="@layout/ingredients_expansion_item"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:gravity="left"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/ingredient_list"
+        android:name="com.udacity.recipes.baking.baking.ItemListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/text_margin"
+        android:layout_marginRight="@dimen/text_margin"
+        app:layoutManager="LinearLayoutManager"
+        tools:context="com.udacity.recipes.baking.baking.IngredientsAndDescriptionListActivity"
+        tools:listitem="@layout/ingredient_list_item"/>
+</LinearLayout>

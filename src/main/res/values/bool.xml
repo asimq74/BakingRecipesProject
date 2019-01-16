@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="stepsContainerAlignParentTop">false</bool>
+    <bool name="stepsContainerCenterInHorizontal">false</bool>
+    <bool name="navBarVisible">true</bool>
+    <bool name="videoFullScreen">false</bool>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_layout_padding">100dp</dimen>
+    <dimen name="text_margin">8dp</dimen>
+    <dimen name="step_item_min_height">72dp</dimen>
+</resources>
